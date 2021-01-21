@@ -2,15 +2,17 @@ package jyjeong.racingcar;
 
 public class CarInfo {
 
-    private final int CarMoveCount;
-    private int move;
+    private int carMoveCount;
 
-    public CarInfo(int CarMoveCount) {
-        this.CarMoveCount = CarMoveCount;
+    public CarInfo() {
+
     }
 
-
     public int getCarMoveCount() {
-        return CarMoveCount;
+        return carMoveCount;
+    }
+
+    public void moveCar(){
+        carMoveCount++;
     }
 }
