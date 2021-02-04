@@ -2,10 +2,11 @@ package jyjeong.racingcar;
 
 import java.util.Random;
 
-public class RandomMoveRule implements moveRule {
+public class RandomMoveRule implements MoveRule {
+
+    private final static int RANDOM_RANGE = 10;
 
     private final int count;
-    private final static int RANDOM_RANGE = 10;
     private final Random random = new Random();
 
     public RandomMoveRule() {

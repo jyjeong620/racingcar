@@ -1,6 +1,6 @@
 package jyjeong.racingcar;
 
-public interface moveRule {
+public interface MoveRule {
 
     int getCount();
 }

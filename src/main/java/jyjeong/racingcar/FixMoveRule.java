@@ -1,6 +1,6 @@
 package jyjeong.racingcar;
 
-public class FixMoveRule implements moveRule {
+public class FixMoveRule implements MoveRule {
 
     private int count;
 
