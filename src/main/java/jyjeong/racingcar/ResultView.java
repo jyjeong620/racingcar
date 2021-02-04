@@ -9,7 +9,7 @@ public class ResultView {
      */
     public void printCar(List<CarInfo> carInfos) {
         for(CarInfo carInfo : carInfos){
-            printMove(carInfo);
+            this.printMove(carInfo);
             System.out.println();
         }
     }

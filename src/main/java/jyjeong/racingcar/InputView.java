@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InputView {
 
-    Scanner input = new Scanner(System.in);
+    private final Scanner input = new Scanner(System.in);
 
     /**
      * 자동차 대수 입력받기
