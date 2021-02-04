@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InputView {
 
-    Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in); // 이런 필드는 private final을 붙여주는 것이 좋아요! final의 장점을 검색해보아요.
 
     /**
      * 자동차 대수 입력받기
